@@ -50,7 +50,7 @@ public class ConsumindoServicos {
         Type motoristaType = new TypeToken<Motorista>() {}.getType();
         m = gm.fromJson(json_motorista, motoristaType);
         System.out.println(m.getNome());
-        
+        //Criando uma reserva manualmente.
         Reserva nova_reserva = new Reserva();
         nova_reserva.setReserva_id("utfpr");
         nova_reserva.setPassageiro_id(p.getPassageiro_id());
