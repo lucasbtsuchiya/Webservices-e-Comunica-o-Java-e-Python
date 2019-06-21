@@ -149,7 +149,7 @@ public class JFormReserva extends javax.swing.JFrame {
 
     private void bnt_motoristaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bnt_motoristaActionPerformed
         try {
-            // TODO add your handling code here:
+            //Listanto todos os motoristas. 
             ConsumindoServicos http = new ConsumindoServicos();
             String chamadaWS;
             chamadaWS = "http://127.0.0.1:5000/motoristas";
