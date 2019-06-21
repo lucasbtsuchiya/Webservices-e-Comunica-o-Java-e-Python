@@ -69,7 +69,7 @@ public class ConsumindoServicos {
         URL obj = new URL(url);
         //prepara a requisição 
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-
+        //Método get
         con.setRequestMethod("GET");
 
         con.setRequestProperty("User-Agent", USER_AGENT);
